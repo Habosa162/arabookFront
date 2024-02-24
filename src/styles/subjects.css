@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #f7f7f7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+/* section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+
+} */
+
+.intro {
+    margin-bottom: 30px;
+
+}
+
+.intro .divider {
+    background-color: #3a8878;
+    height: 2px;
+    width: 120px;
+    margin: 18px auto;
+}
+
+.info-box {
+    border: 1px solid #F2F2F2;;
+    border-bottom: 3px solid #e3e3e3;
+
+
+}
+
+.icon-box {
+    width: 100px;
+    height: 100px;
+    background-color: #3a8878;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin: 0 auto 24px auto;
+    color: #fff;
+    
+}
+
+.icon-box i {
+    font-size: 50px;
+
+}
+
+.link a {
+    color: black;
+}
+
+#semesters button {
+
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+#semesters .nav-pills .nav-link.active {
+    background-color: transparent;
+    color: black;
+    border-bottom: solid 3px black;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}

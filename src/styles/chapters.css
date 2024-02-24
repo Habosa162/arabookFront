@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+#lessons-section {
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #212529;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.link{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3a8878;
+}
+
+.btnn:hover {
+    color: #3a8878;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+} */
+
+#lessons-section .section {
+    background-color: #212529;
+    padding: 30px 15px;
+    border-bottom: 3px solid #212529;
+}
+
+#lessons-section .lesson {
+    background-color: #212529;
+    padding: 10px 15px;
+    border-bottom: 1px solid #212529;
+} 
+
+
+
+#lessons-section .conatainer-box{
+    margin-top: 30px;
+    border: 1px solid 212529;
+    background-color: #212529;
+}
+
+#lessons-section .lesson:hover {
+    background: #3a8878;
+    color: #fff;
+
+}
+
+#lessons-section .lesson:hover a{
+    color: black;
+}
+
+.conatainer-box p {
+   font-size: 18px; 
+}
